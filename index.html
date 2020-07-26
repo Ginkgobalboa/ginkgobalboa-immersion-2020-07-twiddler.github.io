@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="la">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Twiddler Populi Romani</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="data-generator.js"></script>
+    <script src="index.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="twiddler.css" />
+  </head>
+  <body>
+    <h1>Twiddler Populi Romani</h1>
+    <button id = 'tweet'>Tweetus!</button>
+    <input type="text" id="userName" placeholder="nomen tuum">
+    <input type="text" id="tweetBox" placeholder="hic scribere">  
+    <div id="google_translate_element"></div>
+
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'la', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <div id="tweet-body"></div>
+  </body>
+</html> 

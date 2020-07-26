@@ -1,0 +1,19 @@
+
+body {
+  /* background-image: url(C:\Users\Lenovo\Desktop\ginkgobalboa\immersion-2020-07-twiddler\pictures\Corinthian Pattern Classic Vector-01.jpg) ; */
+  background-color: #a434eb;
+  background-image: url('pictures/columns.png');
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  color: #F4F4F4;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: none;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
