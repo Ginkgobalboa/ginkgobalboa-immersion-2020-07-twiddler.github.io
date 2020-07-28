@@ -28,7 +28,7 @@ const randomElement = (array) => {
   return array[randomIndex];
 };
 
-// Random tweet generator
+// Random tweet generator translated into Latin
 const opening = ['tantum', '', '', '', '', 'quam ego a me', 'omnino', 'fere', 'in secretum', 'Ego heri', 'Caesar', 'eo sacerdos', 'gladiator', 'feci', 'exarsi', 'pugnavit', 'scripsi', 'sollicitudin', 'formari', 'celeritate uinci senserunt', 'creavi'];
 const verbs = ['accepi rerum a tela', 'feci aliquid operari cum', 'explicuit', 'succrevit', 'aedificavit', 'inventa', 'expertus', 'ordinatur cursus', 'adiutus', 'fruendum', 'machinator', 'aedificavit', 'accepi minorum de', 'delegata', 'sollicitudin', 'formari', 'verat systematice', 'celeritate uinci senserunt', 'computandos'];
 const objects = ['meam', 'tuam', 'meam', 'totum', 'hoc', 'quod', 'magnus', 'novam formam'];

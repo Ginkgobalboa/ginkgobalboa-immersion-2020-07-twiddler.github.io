@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<!-- set the html language to Latin -->
 <html lang="la">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- change the title of the page -->
     <title>Twiddler Populi Romani</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -14,11 +15,15 @@
   </head>
   <body>
     <h1>Twiddler Populi Romani</h1>
+    <!-- create a tweet button -->
     <button id = 'tweet'>Tweetus!</button>
+    <!-- create an input box for userName -->
     <input type="text" id="userName" placeholder="nomen tuum">
+    <!-- create an input box for the tweet message -->
     <input type="text" id="tweetBox" placeholder="hic scribere">  
     <div id="google_translate_element"></div>
-
+    
+    <!-- insert Google Translate -->
   <script type="text/javascript">
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'la', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
